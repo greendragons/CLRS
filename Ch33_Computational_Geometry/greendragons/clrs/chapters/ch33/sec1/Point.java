@@ -1,3 +1,5 @@
+package greendragons.clrs.chapters.ch33.sec1;
+
 
 public class Point {
 	int x, y;

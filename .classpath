@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="Chapter33_Computational_Geometry"/>
-	<classpathentry kind="src" path="utils"/>
+	<classpathentry excluding="greendragons/clrs/chapters/Ch33_Computational_Geometry/|greendragons/clrs/chapters/Ch32_Computational_Geometry/" kind="src" path="utils"/>
+	<classpathentry kind="src" path="Ch33_Computational_Geometry"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

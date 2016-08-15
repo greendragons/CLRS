@@ -1,3 +1,5 @@
+package greendragons.clrs.chapters.ch33.sec1;
+
 import java.io.PrintWriter;
 
 import greendragons.clrs.utils.io.FastScanner;
@@ -32,5 +34,4 @@ public class SegmentIntersect {
 			t--;
 		}
 	}
-
 }
