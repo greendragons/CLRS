@@ -1,8 +1,6 @@
-package greendragons.clrs.chapters.ch33.sec1;
-
+package ch33.sec1;
+import java.io.File;
 import java.io.PrintWriter;
-
-import greendragons.clrs.utils.io.FastScanner;
 
 public class SegmentIntersect {
 	static FastScanner in;
@@ -10,7 +8,7 @@ public class SegmentIntersect {
 
 	public static void main(String[] args) {
 		int t;
-		in = new FastScanner(System.in);
+		in = new FastScanner(new File("C:\\Users\\ssethi\\Documents\\Prog\\repos\\Algo\\geometry\\IO\\ip.in"));
 		t = in.nextInt();
 
 		while(t != 0) {
@@ -34,4 +32,5 @@ public class SegmentIntersect {
 			t--;
 		}
 	}
+
 }

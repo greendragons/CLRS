@@ -1,5 +1,4 @@
-package greendragons.clrs.chapters.ch33.sec1;
-
+package ch33.sec1;
 
 public class Segment {
 	Point p1, p2;
